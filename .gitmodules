@@ -1,0 +1,3 @@
+[submodule "AlgorithmsGrader"]
+	path = AlgorithmsGrader
+	url = git@github.com:SKantar/AlgorithmsGrader.git
