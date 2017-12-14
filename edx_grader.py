@@ -57,7 +57,7 @@ def get_queue_length(queue_name, xqueue_session):
 
 
 def grade_submission(content_header, content_body):
-    from grader.grader import test_code
+    from AlgorithmsGrader.grader.grader.grader import test_code
 
     grader_payload = json.loads(content_body['grader_payload'])
     grader_url = urllib.request.urlopen("http://" + grader_payload['tester'])
